@@ -1,0 +1,66 @@
+:root{
+    --background-color: #118B50;
+}
+
+@import url(https://fonts.bunny.net/css?family=nunito:200,300,500,600,900);
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.permission-title{
+    font-size: 30px;
+    color: var(--background-color);
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+
+.card-header{
+    background-color: #118B50;
+    color: white;
+
+}
+.card-header h3{
+    font-size: 27px;
+}
+
+input[type="text"],
+form select{
+    border: 1px solid #999b9a;
+    border-radius: 5px;
+}
+
+.edit-button{
+    background-color: #FCDE70;
+}
+.edit-button:hover{
+    background-color: #fcd23c;
+}
+
+.dashboard-card{
+    width: 400px;
+}
+
+.dashboard-card-body{
+    font-size: 20px;
+}
+.dashboard-card-body a{
+    color: #118B50;
+    transition: 0.5s;
+}
+
+.dashboard-card-body a:hover{
+    color: #fc3c42;
+}
+
